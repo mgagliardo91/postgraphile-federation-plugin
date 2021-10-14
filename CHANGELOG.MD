@@ -5,6 +5,7 @@
 ## v0.5.0
 
 - Bump eslint to 8.0.0 and move to @apollo/subgraph in place of @apollo/federation.
+- Bump @apollo/gateway to 0.4.3
 
 ## v0.4.1
 
