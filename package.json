@@ -36,8 +36,8 @@
   "dependencies": {
     "@apollo/subgraph": "^0.3.1",
     "@graphql-tools/wrap": "^8",
-    "graphile-utils": "^4.12.1",
-    "graphql": "^16.3.0"
+    "graphile-utils": "^4.12.2",
+    "graphql": "^15.8.0"
   },
   "devDependencies": {
     "@apollo/gateway": "^0.48.1",

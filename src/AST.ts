@@ -10,6 +10,10 @@ import type {
   StringValueNode,
 } from "graphql";
 
+import {
+  Kind
+} from "graphql"
+
 /**
  * Construct AST `name` node required for Apollo Federation's printSchema.
  * @param value The value.
@@ -17,7 +21,7 @@ import type {
  */
 export function Name(value: string): NameNode {
   return {
-    kind: "Name",
+    kind: Kind.NAME,
     value,
   };
 }
@@ -30,7 +34,7 @@ export function Name(value: string): NameNode {
  */
 export function StringValue(value: string, block = false): StringValueNode {
   return {
-    kind: "StringValue",
+    kind: Kind.STRING,
     value,
     block: block,
   };
@@ -46,7 +50,7 @@ export function ObjectTypeDefinition(spec: {
   description?: string | null;
 }): ObjectTypeDefinitionNode {
   return {
-    kind: "ObjectTypeDefinition",
+    kind: Kind.OBJECT_TYPE_DEFINITION,
     name: Name(spec.name),
     description: spec.description
       ? StringValue(spec.description, true)
@@ -66,7 +70,7 @@ export function Directive(
   args: { [argName: string]: unknown } = {},
 ): DirectiveNode {
   return {
-    kind: "Directive",
+    kind: Kind.DIRECTIVE,
     name: Name(name),
     arguments: Object.entries(args).map(
       ([argName, value]) =>
