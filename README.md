@@ -15,13 +15,13 @@ Maintaining this fork was a preference from the original owners of the federatio
 ## Installation
 
 ```
-npm install postgraphile @graphile/federation
+npm install postgraphile postgraphile-federation-plugin
 ```
 
 ## CLI usage
 
 ```
-postgraphile --append-plugins @graphile/federation
+postgraphile --append-plugins postgraphile-federation-plugin
 ```
 
 ## Library usage
@@ -29,7 +29,7 @@ postgraphile --append-plugins @graphile/federation
 ```js
 const express = require("express");
 const { postgraphile } = require("postgraphile");
-const { default: FederationPlugin } = require("@graphile/federation");
+const { default: FederationPlugin } = require("postgraphile-federation-plugin");
 
 const app = express();
 app.use(
