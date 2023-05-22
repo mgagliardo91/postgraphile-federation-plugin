@@ -35,7 +35,7 @@
   "homepage": "https://github.com/mgagliardo91/postgraphile-federation-plugin#readme",
   "dependencies": {
     "@apollo/subgraph": "^0.6.1",
-    "@graphql-tools/wrap": "^9",
+    "@graphql-tools/wrap": "^10",
     "graphile-utils": "^4.12.2",
     "graphql": "^15.8.0"
   },
