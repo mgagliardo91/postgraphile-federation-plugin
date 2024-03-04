@@ -43,7 +43,7 @@
     "@apollo/gateway": "^0.54.1",
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
-    "@typescript-eslint/parser": "^6.5.0",
+    "@typescript-eslint/parser": "^7.1.0",
     "apollo-server": "^3.3.0",
     "axios": "^0.27.2",
     "eslint": "^8.0.0",
