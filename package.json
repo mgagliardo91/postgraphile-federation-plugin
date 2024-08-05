@@ -47,7 +47,7 @@
     "apollo-server": "^3.3.0",
     "axios": "^0.27.2",
     "eslint": "^8.0.0",
-    "eslint_d": "^13.0.0",
+    "eslint_d": "^14.0.3",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^28.2.0",
     "eslint-plugin-jsdoc": "^48",
