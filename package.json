@@ -50,7 +50,7 @@
     "eslint_d": "^13.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^28.2.0",
-    "eslint-plugin-jsdoc": "^48",
+    "eslint-plugin-jsdoc": "^50",
     "eslint-plugin-prettier": "^5.0.0",
     "jest": "^27.2.4",
     "jest-serializer-graphql-schema": "^4.10.0",
